@@ -1,6 +1,4 @@
-# Computation-of-ferrite-inductor-current-in-DC-DC-buck-converter
-
-Matlab script for the computation of current waveform in ferrite power inductors for application in buck-type converters
+How to use:
 
 Edit the Inductors parameters (Lh, Lh, I30, I70) (ref: )
 

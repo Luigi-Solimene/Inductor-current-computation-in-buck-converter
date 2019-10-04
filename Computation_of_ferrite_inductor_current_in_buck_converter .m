@@ -2,13 +2,6 @@ clear all
 close all
 clc
 
-%%%% Initialization of the L(i) parameters 
-Lh=9.1e-5;
-Ll=3.2968e-7;
-I30=0.2588;
-I70=0.4549;
-%%%%
-
 %%%% Initialization of the simulation parameters
 U_i=15;         % Input voltage of the converter  
 U_d=0.5;        % Diode threshold voltage
@@ -19,6 +12,13 @@ f_s=465e3;      % Switching frequency
 T_s=1/f_s;      % Switching period  
 I_o=0.45;       % Average load current 
 N_points=5000;  % Number of points of the simulation arrays
+%%%%
+
+%%%% Initialization of the L(i) parameters 
+Lh=9.1e-5;
+Ll=3.2968e-7;
+I30=0.2588;
+I70=0.4549;
 %%%%
 
 %%%% Definition of the L(i) curve
